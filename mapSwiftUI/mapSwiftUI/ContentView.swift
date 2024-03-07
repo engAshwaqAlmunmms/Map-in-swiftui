@@ -6,14 +6,14 @@
 //
 
 import SwiftUI
+import  MapKit
 
 struct ContentView: View {
+    //MARK :- 24.7136° N, 46.6753° E , Riyadh/Coordinates
+    
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
         }
         .padding()
     }
