@@ -15,6 +15,7 @@
 		EDAC1AE92B9A6EE500E57490 /* mapSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAC1AE82B9A6EE500E57490 /* mapSwiftUIUITests.swift */; };
 		EDAC1AEB2B9A6EE500E57490 /* mapSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAC1AEA2B9A6EE500E57490 /* mapSwiftUIUITestsLaunchTests.swift */; };
 		EDAC1AF82B9A80BB00E57490 /* ContentView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAC1AF72B9A80BB00E57490 /* ContentView1.swift */; };
+		EDDB58E32B9BDF9F00031A77 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDB58E22B9BDF9F00031A77 /* ContentView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		EDAC1AE82B9A6EE500E57490 /* mapSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapSwiftUIUITests.swift; sourceTree = "<group>"; };
 		EDAC1AEA2B9A6EE500E57490 /* mapSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EDAC1AF72B9A80BB00E57490 /* ContentView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView1.swift; sourceTree = "<group>"; };
+		EDDB58E22B9BDF9F00031A77 /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				EDAC1ACD2B9A6EE200E57490 /* mapSwiftUIApp.swift */,
 				EDAC1ACF2B9A6EE200E57490 /* ContentView.swift */,
 				EDAC1AF72B9A80BB00E57490 /* ContentView1.swift */,
+				EDDB58E22B9BDF9F00031A77 /* ContentView2.swift */,
 				EDAC1AD12B9A6EE400E57490 /* Assets.xcassets */,
 				EDAC1AD32B9A6EE400E57490 /* Preview Content */,
 			);
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDAC1AF82B9A80BB00E57490 /* ContentView1.swift in Sources */,
+				EDDB58E32B9BDF9F00031A77 /* ContentView2.swift in Sources */,
 				EDAC1AD02B9A6EE200E57490 /* ContentView.swift in Sources */,
 				EDAC1ACE2B9A6EE200E57490 /* mapSwiftUIApp.swift in Sources */,
 			);
