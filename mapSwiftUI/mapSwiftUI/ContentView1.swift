@@ -13,25 +13,25 @@ struct ContentView1: View {
     @State var northValue: String = ""
     @State var eastValue: String = ""
 
-    let startPosition = MapCameraPosition.region(
-        MKCoordinateRegion(
-            center: CLLocationCoordinate2D(latitude: 24.7136, longitude: 46.6753),
-            span: MKCoordinateSpan(latitudeDelta: 10, longitudeDelta: 10)
-        )
+    @State var region = MKCoordinateRegion(
+        center: .init(latitude: 37.334_900,longitude: -122.009_020),
+        span: .init(latitudeDelta: 0.2, longitudeDelta: 0.2)
     )
-        
+    
     var body: some View {
         VStack {
             Text("Map In SwiftUI With Ashwaq !")
                 .bold()
                 .padding([.bottom], 50)
-            Map(initialPosition:MapCameraPosition.region(
-                MKCoordinateRegion(
-                    center: CLLocationCoordinate2D(latitude: Double(northValue) ?? 0.0, longitude: Double(eastValue) ?? 0.0),
-                    span: MKCoordinateSpan(latitudeDelta: 10, longitudeDelta: 10)
-                )
-            ))
-            
+            Map(coordinateRegion: .constant(MKCoordinateRegion(
+                center:  CLLocationCoordinate2D(
+                    latitude: Double(northValue) ?? 0.0,
+                    longitude: Double(eastValue) ?? 0.0),
+                span: MKCoordinateSpan(
+                  latitudeDelta: 0.5,
+                  longitudeDelta: 0.5
+               )
+            )))
             Text("Write your Coordinators")
                 .foregroundColor(.orange)
             HStack {
